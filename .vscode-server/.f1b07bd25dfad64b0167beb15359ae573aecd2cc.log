@@ -1,0 +1,139 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to 127.0.0.1:32851 (IPv4)
+Extension host agent listening on 32851
+
+[05:28:38] 
+
+
+
+
+[05:28:38] Extension host agent started.
+[05:28:38] [127.0.0.1][c6c00d39][ManagementConnection] New connection established.
+[05:28:38] [127.0.0.1][2c19ccee][ExtensionHostConnection] New connection established.
+[05:28:39] [127.0.0.1][2c19ccee][ExtensionHostConnection] <3707> Launched Extension Host Process.
+New EH opened, aborting shutdown
+[05:33:38] New EH opened, aborting shutdown
+[19:08:22] [127.0.0.1][b9525084][ManagementConnection] New connection established.
+[19:08:22] [127.0.0.1][337b4129][ExtensionHostConnection] New connection established.
+[19:08:22] [127.0.0.1][337b4129][ExtensionHostConnection] <7283> Launched Extension Host Process.
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/autumn/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/platform/terminal/node/ptyHostMain.js:44:32246)
+    at A.updateTitle (/home/autumn/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/platform/terminal/node/ptyHostMain.js:44:27446)
+    at V.<computed> (/home/autumn/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/platform/terminal/node/ptyHostMain.js:44:22715)
+    at Object.call (/home/autumn/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/platform/terminal/node/ptyHostMain.js:34:5059)
+    at h.s (/home/autumn/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/platform/terminal/node/ptyHostMain.js:32:5150)
+    at h.q (/home/autumn/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/platform/terminal/node/ptyHostMain.js:32:4661)
+    at g.value (/home/autumn/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/platform/terminal/node/ptyHostMain.js:32:4066)
+    at n.z (/home/autumn/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/platform/terminal/node/ptyHostMain.js:27:1902)
+    at n.fire (/home/autumn/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/platform/terminal/node/ptyHostMain.js:27:2119)
+    at process.he (/home/autumn/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/platform/terminal/node/ptyHostMain.js:25:9949)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[19:08:24] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/home/autumn/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/platform/terminal/node/ptyHostMain.js:44:32246)
+    at A.updateTitle (/home/autumn/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/platform/terminal/node/ptyHostMain.js:44:27446)
+    at V.<computed> (/home/autumn/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/platform/terminal/node/ptyHostMain.js:44:22715)
+    at Object.call (/home/autumn/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/platform/terminal/node/ptyHostMain.js:34:5059)
+    at h.s (/home/autumn/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/platform/terminal/node/ptyHostMain.js:32:5150)
+    at h.q (/home/autumn/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/platform/terminal/node/ptyHostMain.js:32:4661)
+    at g.value (/home/autumn/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/platform/terminal/node/ptyHostMain.js:32:4066)
+    at n.z (/home/autumn/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/platform/terminal/node/ptyHostMain.js:27:1902)
+    at n.fire (/home/autumn/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/platform/terminal/node/ptyHostMain.js:27:2119)
+    at process.he (/home/autumn/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/platform/terminal/node/ptyHostMain.js:25:9949)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[19:09:37] Failed to install extension. ms-toolsai.jupyter
+[19:09:37] Error: getaddrinfo EAI_AGAIN marketplace.visualstudio.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3001,
+  code: 'EAI_AGAIN',
+  syscall: 'getaddrinfo',
+  hostname: 'marketplace.visualstudio.com'
+}
+[19:09:41] Getting Manifest... demystifying-javascript.python-extensions-pack
+[19:09:41] Failed to install extension. demystifying-javascript.python-extensions-pack
+[19:09:41] Error: getaddrinfo EAI_AGAIN demystifying-javascript.gallery.vsassets.io
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3001,
+  code: 'EAI_AGAIN',
+  syscall: 'getaddrinfo',
+  hostname: 'demystifying-javascript.gallery.vsassets.io'
+}
+[19:09:42] Getting Manifest... ms-toolsai.vscode-jupyter-powertoys
+[19:09:42] Failed to install extension. ms-toolsai.vscode-jupyter-powertoys
+[19:09:42] Error: getaddrinfo EAI_AGAIN ms-toolsai.gallery.vsassets.io
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3001,
+  code: 'EAI_AGAIN',
+  syscall: 'getaddrinfo',
+  hostname: 'ms-toolsai.gallery.vsassets.io'
+}
+[19:12:31] Getting Manifest... ms-toolsai.vscode-jupyter-slideshow
+[19:12:31] Failed to install extension. ms-toolsai.vscode-jupyter-slideshow
+[19:12:31] Error: getaddrinfo EAI_AGAIN ms-toolsai.gallery.vsassets.io
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3001,
+  code: 'EAI_AGAIN',
+  syscall: 'getaddrinfo',
+  hostname: 'ms-toolsai.gallery.vsassets.io'
+}
+[19:12:40] Getting Manifest... ms-toolsai.jupyter-hub
+[19:12:40] Failed to install extension. ms-toolsai.jupyter-hub
+[19:12:40] Error: getaddrinfo EAI_AGAIN ms-toolsai.gallery.vsassets.io
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3001,
+  code: 'EAI_AGAIN',
+  syscall: 'getaddrinfo',
+  hostname: 'ms-toolsai.gallery.vsassets.io'
+}
+[19:12:46] Getting Manifest... ms-python.python
+[19:12:46] Failed to install extension. ms-python.python
+[19:12:46] Error: getaddrinfo EAI_AGAIN ms-python.gallery.vsassets.io
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3001,
+  code: 'EAI_AGAIN',
+  syscall: 'getaddrinfo',
+  hostname: 'ms-python.gallery.vsassets.io'
+}
+[19:13:12] Failed to install extension. ms-python.python
+[19:13:12] Error: getaddrinfo EAI_AGAIN marketplace.visualstudio.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3001,
+  code: 'EAI_AGAIN',
+  syscall: 'getaddrinfo',
+  hostname: 'marketplace.visualstudio.com'
+}
+[19:13:22] [127.0.0.1][2c19ccee][ExtensionHostConnection] <3707> Extension Host Process exited with code: 0, signal: null.
+[19:13:41] Getting Manifest... ms-toolsai.jupyter-hub
+[19:13:41] Failed to install extension. ms-toolsai.jupyter-hub
+[19:13:41] Error: getaddrinfo EAI_AGAIN ms-toolsai.gallery.vsassets.io
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3001,
+  code: 'EAI_AGAIN',
+  syscall: 'getaddrinfo',
+  hostname: 'ms-toolsai.gallery.vsassets.io'
+}
+[19:13:44] Getting Manifest... ms-toolsai.vscode-jupyter-powertoys
+[19:13:44] Failed to install extension. ms-toolsai.vscode-jupyter-powertoys
+[19:13:44] Error: getaddrinfo EAI_AGAIN ms-toolsai.gallery.vsassets.io
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3001,
+  code: 'EAI_AGAIN',
+  syscall: 'getaddrinfo',
+  hostname: 'ms-toolsai.gallery.vsassets.io'
+}
+[20:50:23] No ptyHost heartbeat after 6 seconds
+[00:40:03] [127.0.0.1][337b4129][ExtensionHostConnection] <7283> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[00:40:03] Last EH closed, waiting before shutting down
+Last EH closed, shutting down
+[00:45:03] Last EH closed, shutting down

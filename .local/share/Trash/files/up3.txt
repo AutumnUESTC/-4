@@ -1,0 +1,43 @@
+import readline
+import rlcompleter
+import os
+
+#历史文件路径
+histfile = os.path.join(os.path.expanduser("~"), ".tab_history")
+
+#尝试读取历史命令
+try:
+    readline.read_history_file(histfile)
+    #设置历史命令的最大保存数量
+    readline.set_history_length(1000)
+except FileNotFoundError:
+    pass
+
+#Tab补全配置
+readline.parse_and_bind("tab: complete")
+
+def my_input(prompt=">>> "):
+    try:
+        #读取用户输入，这里用户可以使用 tab 补全和查看历史命令
+        return input(prompt)
+    except KeyboardInterrupt:
+        #如果用户使用Ctrl+C，会抛出KeyboardInterrupt，我们捕获这个异常并退出
+        print("\nKeyboardInterrupt")
+        return None
+
+while True:
+    #获取用户输入
+    command = my_input()
+    if command in [None, "exit", "quit"]:
+        break
+    if command.strip() == "":
+        continue
+    try:
+        #执行Python命令
+        exec(command)
+    except Exception as e:
+        #如果执行时出现异常，输出异常信息
+        print("Error:", e)
+
+#保存历史命令
+readline.write_history_file(histfile)

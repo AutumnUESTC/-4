@@ -1,0 +1,10 @@
+2023-10-24 01:31:54,719 - 不堪往事 - DEBUG - This is a debug message
+2023-10-24 01:31:54,719 - 不堪往事 - DEBUG - This is a debug message
+2023-10-24 01:31:54,723 - 不堪往事 - INFO - This is an info message
+2023-10-24 01:31:54,723 - 不堪往事 - INFO - This is an info message
+2023-10-24 01:31:54,723 - 不堪往事 - WARNING - This is a warning message
+2023-10-24 01:31:54,723 - 不堪往事 - WARNING - This is a warning message
+2023-10-24 01:31:54,723 - 不堪往事 - ERROR - This is an error message
+2023-10-24 01:31:54,723 - 不堪往事 - ERROR - This is an error message
+2023-10-24 01:31:54,724 - 不堪往事 - CRITICAL - This is a critical message
+2023-10-24 01:31:54,724 - 不堪往事 - CRITICAL - This is a critical message

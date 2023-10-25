@@ -1,0 +1,27 @@
+2023-10-21 05:05:27.257 [info] 
+
+
+
+
+2023-10-21 05:05:27.257 [info] Extension host agent started.
+2023-10-21 05:05:27.273 [info] Started initializing default profile extensions in extensions installation folder. file:///home/autumn/.vscode-server/extensions
+2023-10-21 05:05:27.300 [info] [127.0.0.1][8bfef5ab][ManagementConnection] New connection established.
+2023-10-21 05:05:27.302 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/autumn/.vscode-server/extensions
+2023-10-21 05:05:27.308 [info] [127.0.0.1][0390b8b1][ExtensionHostConnection] New connection established.
+2023-10-21 05:05:27.361 [info] Installing extensions...
+2023-10-21 05:05:27.444 [info] [127.0.0.1][0390b8b1][ExtensionHostConnection] <3150> Launched Extension Host Process.
+2023-10-21 05:05:28.980 [info] Installing extension 'ms-ceintl.vscode-language-pack-zh-hans'...
+2023-10-21 05:05:30.162 [info] Getting Manifest... ms-ceintl.vscode-language-pack-zh-hans
+2023-10-21 05:05:30.413 [info] Installing extension: ms-ceintl.vscode-language-pack-zh-hans
+2023-10-21 05:05:32.119 [warning] Extension signature verification failed with error 'ENOENT': ms-ceintl.vscode-language-pack-zh-hans
+2023-10-21 05:05:32.291 [info] Extracted extension to file:///home/autumn/.vscode-server/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.83.2023101109: ms-ceintl.vscode-language-pack-zh-hans
+2023-10-21 05:05:32.297 [info] Renamed to /home/autumn/.vscode-server/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.83.2023101109
+2023-10-21 05:05:32.300 [info] Extracting extension completed. ms-ceintl.vscode-language-pack-zh-hans
+2023-10-21 05:05:32.308 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-zh-hans
+2023-10-21 05:05:32.399 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-zh-hans
+2023-10-21 05:05:32.410 [info] Extension 'ms-ceintl.vscode-language-pack-zh-hans' v1.83.2023101109 was successfully installed.
+2023-10-21 05:06:38.880 [info] [127.0.0.1][8bfef5ab][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-10-21 05:06:38.927 [info] [127.0.0.1][0390b8b1][ExtensionHostConnection] <3150> Extension Host Process exited with code: 0, signal: null.
+2023-10-21 05:06:38.929 [info] Cancelling previous shutdown timeout
+2023-10-21 05:06:38.929 [info] Last EH closed, waiting before shutting down
+2023-10-21 05:11:38.930 [info] Last EH closed, shutting down

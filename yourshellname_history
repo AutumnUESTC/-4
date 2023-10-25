@@ -1,0 +1,42 @@
+ls
+pwd
+touch wow.txt
+nano wow.txt
+cat wow.txt
+echo wow.txt
+history
+which python3
+show
+echo $SHELL
+source ~/.bashrc
+$ alias show='ls'
+show
+show
+show
+unalias show
+example
+example
+ls
+example
+show
+source ~/.bashrc
+show
+buchongming
+¬
+cd.
+cd .
+pwd
+pwd
+pwd
+pwd
+pwd
+ls
+bucunzai
+ls
+pwd
+ls
+pwd
+ping -c 1 www.google.com
+ls
+python3 meiyouzhegewenjian
+nonexist

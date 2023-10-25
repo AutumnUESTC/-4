@@ -1,0 +1,19 @@
+{
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "debug.onTaskErrors": "showErrors",
+    "workbench.editorAssociations": {
+        "*.exe": "default"
+    },
+    "redhat.telemetry.enabled": true,
+    "workbench.colorCustomizations": {},
+    "terminal.integrated.sendKeybindingsToShell": true,
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "clangd.path": "c:\\Users\\cielt\\AppData\\Roaming\\Code\\User\\globalStorage\\llvm-vs-code-extensions.vscode-clangd\\install\\16.0.2\\clangd_16.0.2\\bin\\clangd.exe",
+    "remote.SSH.configFile": "C:\\Users\\cielt\\.ssh\\config",
+    "security.workspace.trust.banner": "always",
+    "remote.SSH.remotePlatform": {
+        "my-remote-vm": "linux"
+    }
+}

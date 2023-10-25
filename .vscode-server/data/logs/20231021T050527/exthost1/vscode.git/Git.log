@@ -1,0 +1,4 @@
+2023-10-21 05:05:33.907 [info] 日志级别: Info
+2023-10-21 05:05:33.907 [info] 正在验证在以下位置找到的 git: "git"
+2023-10-21 05:05:33.907 [warning] Unable to find git. Error: spawn git ENOENT
+2023-10-21 05:05:33.907 [warning] Git installation not found.

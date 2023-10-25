@@ -1,0 +1,66 @@
+2023-10-21 05:28:38.653 [info] 
+
+
+
+
+2023-10-21 05:28:38.682 [info] Extension host agent started.
+2023-10-21 05:28:38.798 [info] [127.0.0.1][c6c00d39][ManagementConnection] New connection established.
+2023-10-21 05:28:38.804 [info] [127.0.0.1][2c19ccee][ExtensionHostConnection] New connection established.
+2023-10-21 05:28:39.054 [info] [127.0.0.1][2c19ccee][ExtensionHostConnection] <3707> Launched Extension Host Process.
+2023-10-21 05:33:38.685 [info] New EH opened, aborting shutdown
+2023-10-21 19:08:22.011 [info] [127.0.0.1][b9525084][ManagementConnection] New connection established.
+2023-10-21 19:08:22.031 [info] [127.0.0.1][337b4129][ExtensionHostConnection] New connection established.
+2023-10-21 19:08:22.058 [info] [127.0.0.1][337b4129][ExtensionHostConnection] <7283> Launched Extension Host Process.
+2023-10-21 19:08:24.723 [error] CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/autumn/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/platform/terminal/node/ptyHostMain.js:44:32246)
+    at A.updateTitle (/home/autumn/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/platform/terminal/node/ptyHostMain.js:44:27446)
+    at V.<computed> (/home/autumn/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/platform/terminal/node/ptyHostMain.js:44:22715)
+    at Object.call (/home/autumn/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/platform/terminal/node/ptyHostMain.js:34:5059)
+    at h.s (/home/autumn/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/platform/terminal/node/ptyHostMain.js:32:5150)
+    at h.q (/home/autumn/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/platform/terminal/node/ptyHostMain.js:32:4661)
+    at g.value (/home/autumn/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/platform/terminal/node/ptyHostMain.js:32:4066)
+    at n.z (/home/autumn/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/platform/terminal/node/ptyHostMain.js:27:1902)
+    at n.fire (/home/autumn/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/platform/terminal/node/ptyHostMain.js:27:2119)
+    at process.he (/home/autumn/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/out/vs/platform/terminal/node/ptyHostMain.js:25:9949)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2023-10-21 19:09:37.689 [error] Failed to install extension. ms-toolsai.jupyter
+2023-10-21 19:09:37.689 [error] Error: getaddrinfo EAI_AGAIN marketplace.visualstudio.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+2023-10-21 19:09:41.814 [info] Getting Manifest... demystifying-javascript.python-extensions-pack
+2023-10-21 19:09:41.822 [error] Failed to install extension. demystifying-javascript.python-extensions-pack
+2023-10-21 19:09:41.822 [error] Error: getaddrinfo EAI_AGAIN demystifying-javascript.gallery.vsassets.io
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+2023-10-21 19:09:42.350 [info] Getting Manifest... ms-toolsai.vscode-jupyter-powertoys
+2023-10-21 19:09:42.362 [error] Failed to install extension. ms-toolsai.vscode-jupyter-powertoys
+2023-10-21 19:09:42.362 [error] Error: getaddrinfo EAI_AGAIN ms-toolsai.gallery.vsassets.io
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+2023-10-21 19:12:31.238 [info] Getting Manifest... ms-toolsai.vscode-jupyter-slideshow
+2023-10-21 19:12:31.248 [error] Failed to install extension. ms-toolsai.vscode-jupyter-slideshow
+2023-10-21 19:12:31.250 [error] Error: getaddrinfo EAI_AGAIN ms-toolsai.gallery.vsassets.io
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+2023-10-21 19:12:40.389 [info] Getting Manifest... ms-toolsai.jupyter-hub
+2023-10-21 19:12:40.397 [error] Failed to install extension. ms-toolsai.jupyter-hub
+2023-10-21 19:12:40.398 [error] Error: getaddrinfo EAI_AGAIN ms-toolsai.gallery.vsassets.io
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+2023-10-21 19:12:46.189 [info] Getting Manifest... ms-python.python
+2023-10-21 19:12:46.206 [error] Failed to install extension. ms-python.python
+2023-10-21 19:12:46.207 [error] Error: getaddrinfo EAI_AGAIN ms-python.gallery.vsassets.io
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+2023-10-21 19:13:12.656 [error] Failed to install extension. ms-python.python
+2023-10-21 19:13:12.657 [error] Error: getaddrinfo EAI_AGAIN marketplace.visualstudio.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+2023-10-21 19:13:22.608 [info] [127.0.0.1][2c19ccee][ExtensionHostConnection] <3707> Extension Host Process exited with code: 0, signal: null.
+2023-10-21 19:13:41.642 [info] Getting Manifest... ms-toolsai.jupyter-hub
+2023-10-21 19:13:41.649 [error] Failed to install extension. ms-toolsai.jupyter-hub
+2023-10-21 19:13:41.649 [error] Error: getaddrinfo EAI_AGAIN ms-toolsai.gallery.vsassets.io
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+2023-10-21 19:13:44.238 [info] Getting Manifest... ms-toolsai.vscode-jupyter-powertoys
+2023-10-21 19:13:44.247 [error] Failed to install extension. ms-toolsai.vscode-jupyter-powertoys
+2023-10-21 19:13:44.248 [error] Error: getaddrinfo EAI_AGAIN ms-toolsai.gallery.vsassets.io
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+2023-10-21 20:50:23.780 [warning] No ptyHost heartbeat after 6 seconds
+2023-10-22 00:40:03.720 [info] [127.0.0.1][337b4129][ExtensionHostConnection] <7283> Extension Host Process exited with code: 0, signal: null.
+2023-10-22 00:40:03.721 [info] Last EH closed, waiting before shutting down
+2023-10-22 00:45:03.723 [info] Last EH closed, shutting down
